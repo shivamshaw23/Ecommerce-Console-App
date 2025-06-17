@@ -925,7 +925,7 @@ int FurthurArea(int option){
 			{
 				prims(LucknowGraph,distanceP);
 				opt=Luck();
-				addressF=Mumbai[opt];
+				addressF=Lucknow[opt];
 			}
 			break;
 			
