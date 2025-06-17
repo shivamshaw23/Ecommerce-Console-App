@@ -35,27 +35,6 @@ This C++ project implements a console‑based e‑commerce system that supports 
 * C++ Standard Library
 * Compiler supporting C++11 or later (e.g., g++, clang++)
 
-## Installation & Compilation
-
-1. Clone or download the repository:
-
-   ```bash
-   git clone https://github.com/<username>/ecommerce-console.git
-   cd ecommerce-console
-   ```
-2. Compile the source code:
-
-   ```bash
-   g++ -std=c++11 -O2 main.cpp -o ecommerce
-   ```
-
-## Usage
-
-Run the compiled executable in your terminal:
-
-```bash
-./ecommerce
-```
 
 Follow the on‑screen menu to:
 
@@ -71,7 +50,7 @@ Follow the on‑screen menu to:
 
 ## Project Structure
 
-* `main.cpp`
+* `code.cpp`
   Contains the entire application: data structures, algorithms, and menu logic.
 
 ### Key Classes & Structs
@@ -93,10 +72,6 @@ Follow the on‑screen menu to:
 * **City Graphs**: Edit the `graph` matrix or per‑city adjacency matrices for customized delivery zones.
 * **Delivery Rate**: Change `deliveryChargesPerKM` constant in `case 3`.
 
-## License
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
-
----
 
 *Happy Coding!*
