@@ -1,5 +1,6 @@
+// You said:
 //----------------Ecommerce store -------------------------
-//               Shivam Kumar Shaw
+//Shivam Kumar Shaw
 
 //---------------------------------------------------------
 
@@ -8,7 +9,7 @@
 #include <stdlib.h>
 #include <bits/stdc++.h>
 #include <string>
-// #define size 50
+
 #define V 11
 #define V1 6
 
@@ -925,7 +926,7 @@ int FurthurArea(int option){
 			{
 				prims(LucknowGraph,distanceP);
 				opt=Luck();
-				addressF=Lucknow[opt];
+				addressF=Mumbai[opt];
 			}
 			break;
 			
@@ -1012,7 +1013,6 @@ int FurthurArea(int option){
 		
 	return opt;
 }
-
 
 //-------------------------------------------------------
 
@@ -1120,6 +1120,7 @@ void searchReviews() {
 
 
 //--------------------------------------------------------------------
+
 
 
 int main()
@@ -1303,10 +1304,11 @@ case 3: {
 		}
         break ;
 
-        case 7: addReview(); break;
-        case 8: searchReviews(); break;
+         case 7:{ addReview();} break;
+        case 8: {searchReviews();} break;
         
     	}
+       
     
 
     } while (choice != 0);
@@ -1315,4 +1317,3 @@ case 3: {
 	
 	return 0;
 }
-
